@@ -1,0 +1,154 @@
+#app {
+  height: 100%;
+}
+body {
+  background: #fff;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  line-height: 1.7;
+  margin: 0;
+}
+
+.image-list {
+  width: 100%;
+  height: 400px;
+  float: right;
+  padding: 15px;
+}
+
+.image {
+  
+}
+
+.slide-show {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+.navbar-custom {
+  color: #FFFFFF;
+  background-color: #808080;
+  margin: 0;
+  padding: 0;
+
+}
+
+.mesaage-entry {
+  width: 100%;
+  padding: 5px;
+  margin: 7px 7px 7px 0;
+  background-color: rgba(138, 138, 138, 0.1);
+  border: 1px solid #c0c0c0;
+}
+
+.main-content {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+/*  border: 1px solid #ddd;*/
+}
+.profile-image {
+  width: 100%;
+  height: auto;
+}
+
+.profile-image > img {
+  width: 100%;
+  height: inherit;
+  margin: 0 auto;
+}
+
+.message-container{
+  width: 100%;
+  position: absolute;
+  padding-top: 15px;
+  
+}
+
+.message-form {
+  width: 100%;
+}
+
+.message-list {
+  width: 100%;
+}
+
+.form-group {
+  width: 100%;
+  height: 100%;
+  /*display: block;*/
+  position: relative;
+}
+
+.input {
+  width: 80%;
+  margin-right: 30px;
+  height: 40%;
+}
+
+.submit-message-button {
+  width: 18%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  padding-left: 5px;
+  color: #808080;
+
+}
+
+a {
+  color: #4183c4;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/*code {
+  background-color: #f8f8f8;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  font-family: "Bitstream Vera Sans Mono", Consolas, Courier, monospace;
+  font-size: 12px;
+  margin: 0 2px;
+  padding: 0 5px;
+}*/
+
+h1, h2, h3, h4 {
+  font-weight: bold;
+  margin: 0 0 15px;
+  padding: 0;
+}
+
+h1 {
+  font-size: 2.5em;
+  font-weight: bold;
+  margin: 0 0 15px;
+  padding-left: 40px;
+}
+span {
+  color: white;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+h4 {
+  font-size: 1.2em;
+}
+
+/*p, ul {
+  margin: 15px 0;
+}*/
+
+ul {
+  padding-left: 30px;
+}
